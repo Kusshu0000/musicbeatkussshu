@@ -1,3 +1,4 @@
+
 import re
 import sys
 from os import getenv
@@ -7,12 +8,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("6084479", ""))
+API_HASH = getenv(" 8d57e706ad235f0d5f41a828d4299cc2")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("5149986812:AAFg7VdhjUnKBr4_dO09KcIq3kGHqNqhIss")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://sjmxherox100#@clusterkusshu_000:<Ptyalin8225@>@cluster0.bhge0uu.mongodb.net/?retryWrites=true&w=majority", None)
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "90")
@@ -22,30 +23,30 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("1488700011", ""))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("H", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ​")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1356469075").split())
+    map(int, getenv("OWNER_ID", "1488700011").split())
 )
 
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("ab76e9ac-9d52-4ef0-a393-49edcb99e1e7")
 
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("Kushagra Yadav")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/AnonymousR1025/AnonXMusic",
+    "https://github.com/Kusshu0000/musicbeatkussshu",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/DevilsHeavenMF")
+    "SUPPORT_CHANNEL", "https://t.me/about_kusshu")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+    "SUPPORT_GROUP", "https://t.me/about_kusshu")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -85,7 +86,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQCbE142rRArGoh2cX-0n8jfQFnoIGUHL7Ss29518WGOTJlX_N0f20-b53DVAdLP7ScoVvWfQnLf4rKe5XgA6o9RWoC4_XrJMjPqSt7_946Edp5nwVqTb6WY8oDQdQSMfcGgc5Bj7OQVQ4aMjFjvMCF1b7qPLJCwetOX_eRjsb55kYpTxBhkfeZLm6vSRCj0lhxIEmw2j0NHW75My-90OfRGf9gcWKR4uSF6KtRVCFREDjRo-aFMPk9HmQsA3BMaU_mYap4aLamIoAlaBpCbbseJOjP9zfYpA144Ha-4r81l45WtOEzfZOmHCcuXcSxCibJOc08uolgQd_TIEOvajyVGWLvCawA ", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -101,13 +102,11 @@ chatstats = {}
 userstats = {}
 clean = {}
 
-autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/56d1760224589ee370186.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/56d1760224589ee370186.jpg",
+    "https:" https://te.legra.ph/file/e1a9a919f9d5f87d324d7.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -233,7 +232,7 @@ if TELEGRAM_AUDIO_URL:
 
 if STREAM_IMG_URL:
     if STREAM_IMG_URL != "assets/Stream.jpeg":
-        if not re.match("(?:http|https)://", STREAM_IMG_URL):
+        if not re.match("(?:http|https)://",https://te.legra.ph/file/e1a9a919f9d5f87d324d7.jpg):
             print(
                 "[ERROR] - Your STREAM_IMG_URL url is wrong. Please ensure that it starts with https://"
             )
